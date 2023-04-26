@@ -1,0 +1,88 @@
+.hero {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(../../src-assets/farsight-enclave.jpg);
+  background-position: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero__welcome {
+  color: var(--secondary);
+  padding-top: 10vh;
+  padding-left: 10%;
+  font-family: var(--pathwayExtreme);
+}
+
+.hero__welcome__text {
+  font-family: var(--blackOps);
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+.hero__welcome__subtext {
+  width: 35vw;
+  margin-bottom: 12vh;
+}
+
+.hero__search {
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__search__input {
+  background-color: var(--secondary);
+  border: none;
+  height: 4rem;
+  width: 25%;
+  font-size: 24px;
+  text-align: center;
+  color: var(--primary);
+  border-radius: 4px;
+}
+
+.hero__search__submit {
+  height: 4rem;
+  width: 8%;
+  font-size: 24px;
+  color: var(--secondary);
+  background-color: var(--primary);
+  border: none;
+  font-family: var(--pathwayExtreme);
+  border-radius: 4px;
+}
+
+.hero__search__submit:hover {
+  color: var(--primary);
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__welcome {
+    width: 80%;
+    padding-top: 0;
+  }
+
+  .hero__welcome__subtext {
+    width: 80vw;
+    margin-bottom: 0;
+  }
+
+  .hero__search {
+    margin: 2vh;
+  }
+
+  .hero__search__input {
+    width: 50%;
+  }
+  .hero__search__submit {
+    width: 25%;
+  }
+}
