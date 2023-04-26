@@ -1,5 +1,5 @@
-This is my submission for Mission 0 of the advanced software developer accelerator at Mission Ready. I have taken the wireframe examples and created a responsive webpage that has been themed as a store homepage for a tabletop gaming/hobby supply shop and community hub.
 
+This is my submission for Mission 0 of the advanced software developer accelerator at Mission Ready. I have taken the wireframe examples and created a responsive webpage that has been themed as a store homepage for a tabletop gaming/hobby supply shop and community hub.
 Built With
 React.js
 NPM
@@ -22,7 +22,7 @@ Install NPM packages - npm install
 Enter your API in config.js
 
 Usage
-This page, for me, is used to show some basic skills on the React.js frontend framework and some examples of conditional redering and responsive web design. In future this could be used as a boilerplate framework for a storefront homepage with the onyl major changes being to images, text content and colour scheme.
+This page, for me, is used to show some basic skills on the React.js frontend framework and some examples of conditional redering and responsive web design. In future this could be used as a boilerplate framework for a storefront homepage with the only major changes being to images, text content and colour scheme.
 
 Contact
 Wilhelmus Duncker | wimduncker17@hotmail.co.nz | wilhelmusd@missionreadyhq.com
