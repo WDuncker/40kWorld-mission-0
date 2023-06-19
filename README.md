@@ -1,4 +1,3 @@
-
 This is my submission for Mission 0 of the advanced software developer accelerator at Mission Ready. I have taken the wireframe examples and created a responsive webpage that has been themed as a store homepage for a tabletop gaming/hobby supply shop and community hub.
 Built With
 React.js
@@ -29,4 +28,4 @@ Wilhelmus Duncker | wimduncker17@hotmail.co.nz | wilhelmusd@missionreadyhq.com
 
 https://www.linkedin.com/in/wilhelmus-duncker-66b9b1272/
 
-Project Link: https://github.com/WDuncker/40kWorld-mission-0
+Project Link: https://github.com/WDuncker/level-5-mission-0-40kWorld
