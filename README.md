@@ -1,31 +1,210 @@
-This is my submission for Mission 0 of the advanced software developer accelerator at Mission Ready. I have taken the wireframe examples and created a responsive webpage that has been themed as a store homepage for a tabletop gaming/hobby supply shop and community hub.
-Built With
-React.js
-NPM
-Font Awesome
-Google Fonts
-Adobe Express
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-Getting Started
-I used Visual Studio Code IDE to develop my React App and imported fonts and icons from Google Fonts and Font Awesome. Adobe Express was used to resize images before importing them into the app as uniform sizing made it much easier to style the page.
+<a name="readme-top"></a>
 
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-npm
-npm install npm@latest -g
-Installation
-Clone the repo
-git clone https://github.com/WDuncker/40kWorld-mission-0.git
-Install NPM packages - npm install
-Enter your API in config.js
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-Usage
-This page, for me, is used to show some basic skills on the React.js frontend framework and some examples of conditional redering and responsive web design. In future this could be used as a boilerplate framework for a storefront homepage with the only major changes being to images, text content and colour scheme.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Contact
-Wilhelmus Duncker | wimduncker17@hotmail.co.nz | wilhelmusd@missionreadyhq.com
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/WDuncker/level-5-mission-0-40kWorld">
+    <img src="readme-images/Eagle.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-https://www.linkedin.com/in/wilhelmus-duncker-66b9b1272/
+<h3 align="center">Level 5 - Mission 0 - One Page Website</h3>
 
-Project Link: https://github.com/WDuncker/level-5-mission-0-40kWorld
+  <p align="center">
+    <br />
+    <a href="https://github.com/WDuncker/level-5-mission-0-40kWorld"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/WDuncker/level-5-mission-0-40kWorld">View Demo</a>
+    ·
+    <a href="https://github.com/WDuncker/level-5-mission-0-40kWorld/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/WDuncker/level-5-mission-0-40kWorld/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+The purpose of this mission was to refresh myself on my frontend skills going into the level 5 advanced software developer course at Mission Ready. My task was to create a one page website based off of a wireframe provided in our mission and also make it reactive and able to be respond to smaller mobile screen sizes. I chose to use React.js and theme mine around a web store landing page for a hobby and gaming shop which gave me a wealth of content to choose from.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+- [![HTML][HTML.com]][HTML-url]
+- [![CSS][CSS.com]][CSS-url]
+- [![React.js][React.js]][React-url]
+- [![vscode][vscode.com]][vscode-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get started you will need to have Visual Studio Code installed on your device and a github account.
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/WDuncker/level-5-mission-0-40kWorld.git
+   ```
+
+2. Install dependencies
+   ```sh
+   npm i - this will install everything you need to get the react app up and running.
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [ ] Created my react app and separated the page into three components and started laying them out and styling them using CSS modules to avoid any CSS conflicts between components.
+- [ ] Once I had created the base page I then went about making the page responsive and able to resize itself to be comfortable viewed in a mobile format. In this step I also added in some javascript functionality to allow a separate popup menu component to be displayed when clicking on the burger menu icon which appears in the mobile format.
+
+See the [open issues](https://github.com/WDuncker/level-5-mission-0-40kWorld/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Wim Duncker - [@WimDuncker](https://twitter.com/WimDuncker) - wimduncker17@hotmail.co.nz
+
+Project Link: [https://github.com/WDuncker/level-5-mission-0-40kWorld](https://github.com/WDuncker/level-5-mission-0-40kWorld)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- Mission Ready HQ
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/WDuncker/Turners-bot
+[contributors-url]: https://github.com/WDuncker/Turners-bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/WDuncker/Turners-bot
+[forks-url]: https://github.com/WDuncker/Turners-bot/network
+[stars-shield]: https://img.shields.io/github/stars/WDuncker/Turners-bot
+[stars-url]: https://github.com/WDuncker/Turners-bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/WDuncker/Turners-bot
+[issues-url]: https://github.com/WDuncker/Turners-bot/issues
+[license-shield]: https://img.shields.io/github/license/WDuncker/Turners-bot
+[license-url]: https://github.com/WDuncker/Turners-bot/blob/main/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/wilhelmus-duncker-66b9b1272/
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com
+[Sass.com]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[Sass-url]: https://sass-lang.com/
+[dialogflow.com]: https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white
+[dialogflow-url]: https://dialogflow.cloud.google.com/
+[typescript.com]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/
+[jest.com]: https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white
+[jest-url]: https://jestjs.io/
+[vscode.com]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white
+[vscode-url]: https://code.visualstudio.com/
+[HTML.com]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://html.com/
+[CSS.com]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://www.css3.com/
+[Javascript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Javascript-url]: https://www.javascript.com/
+
+```
+
+```
